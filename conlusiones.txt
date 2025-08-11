@@ -1,0 +1,9 @@
+CONCLUSIONES
+
+- La API de Petstore permite realizar operaciones CRUD de forma sencilla sobre recursos de usuario.
+- Se validó que la creación de usuario (POST) devuelve estado 200 y el objeto creado se puede consultar inmediatamente.
+- La actualización (PUT) modifica correctamente los campos firstName y email, y los cambios son reflejados en consultas posteriores (GET).
+- La eliminación (DELETE) responde con estado 200 y posteriormente un GET devuelve 404 (usuario no encontrado), confirmando la eliminación.
+- El uso de Karate facilita el manejo de variables y la reutilización de datos entre escenarios.
+- Es importante considerar que la API es pública y los datos pueden ser modificados por otros usuarios en cualquier momento.
+- Se deja constancia de que los tests fueron realizados en un entorno controlado y los resultados pueden variar en entornos de producción (VIDEO)
