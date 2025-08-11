@@ -17,6 +17,7 @@ INSTRUCCIONES DE EJECUCIÓN
 
 5. Ver reporte de resultados:
    Abrir el archivo target/karate-reports/karate-summary.html en un navegador.
+   [Ver video de ejecución](evidencias/video.mp4).
 
 Notas:
 - El proyecto utiliza Karate Framework con JUnit5.
